@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background:#fff;
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	min-height:100px;
+	min-width:1300px;
+}
+#top2-border
+{
+	width:100%;
+	height:55px;
+	background:#fff;
+	 border-bottom: 1px solid #666;
+  	border-color: #e5e5e5;
+}
+.t3
+{
+	font-size:18px;
+	text-align:right;
+	float:right;
+	margin-right:10px;
+	
+}
+	
+.filler
+{
+	width:160px;
+	height:55px;
+	float:left;
+}
+.menu-border
+{
+	width:69px;
+	height:30px;
+	border-bottom: 3px solid #999;
+  	color:#999;
+	float:left;
+	margin-left:2px;
+	padding-top:23px;
+}
+	
+.menu-border2
+{
+	width:69px;
+	height:30px;
+  	color:#999;
+	float:left;
+	margin-left:2px;
+	padding-top:26px;
+}
+#top-border
+{
+	width:100%;
+	height:60px;
+	background-color: #000;
+    border-bottom: 1px solid #666;
+  	border-color: #e5e5e5;
+}
+.float-left
+{
+	float:left;
+}
+.text
+{
+	font-size:36px;
+	color:#c0c0c0;
+	padding:0px;
+	margin:0px;
+
+}
+.text2
+{
+	font-size:24px;
+	color:#666;
+	padding:5px;
+	margin-top:10px;
+
+}
+.text3
+{
+	font-size:24px;
+	color:#c0c0c0;
+	padding:0px;
+	margin:160px;
+
+}
+.search
+{
+
+  	display: inline-block;
+  	margin: 0 auto 2px;
+	float:right;
+	border-radius:0px;
+	border:1px;
+	padding: 0px 9px 0;
+  	padding-top: 0 !important;
+  	width: 570px;
+	height:30px;
+	margin-top:15px;
+}
+
+#button
+{	
+	background-image:-webkit-linear-gradient(top,#666,#c0c0c0);
+	height:30px;
+  	
+  	margin: 0 auto 2px;
+	float:right;
+	border-radius:0px;
+	border:1px;
+	border-color:#4d90ff;
+	margin-top:15px;
+	margin-right:15px;
+}
+#button:hover
+{
+	background-image:-webkit-linear-gradient(top,#999,#c0c0c0);
+	border:1px solid  #4d90ff;
+}
+.news-container
+{
+	width:70%;
+	height:700px;
+	background:#FFF;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	-webkit-box-shadow: 6px 0 7px -2px rgba(31, 73, 125, 0.8), -6px 0 4px -2px rgba(31, 73, 125, 0.8);
+	overflow:hidden;
+}
+	
+
+#news-top
+{
+	background-image:-webkit-linear-gradient(top,#666,#c0c0c0);
+	width:100%;
+	height:35px;
+	
+}
+.newsoptions
+{
+	width:160px;
+	height:100%;
+	background:#333;
+	float:left;
+	line-height:2px;
+}
+	
+#profile-top
+{
+	width:29.8%;
+	height:35px;
+	background:url(../images/club.png) no-repeat;
+	border-bottom:1px solid #c0c0c0;
+	border-top:1px solid #c0c0c0;
+	float:right;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+			text-align:center;
+}
+	
+.profile-container
+{
+	width: 29.8%;
+	height: 600px;
+	background:none;
+	float:right;
+	border-bottom: 1px solid #999;
+	
+
+}
+.profile-pic
+{
+	width:104px;
+	height:154px;
+	background:#fff;
+	margin-top:5px;
+	border-radius:2px;
+	border-color:5px solid #fff;
+	float:right;
+	top:270px;
+	position:absolute;
+	left:90%;
+}
+.picadjust
+{ 
+	margin-top:5px;
+	
+.cover-photo
+{
+	width:100%;
+	height:300px;
+	background:#FFF;
+}
+.rights
+{
+	width: 29.8%;
+	height: 50px;
+	color:#333;
+	margin-top: 2px;
+	opacity: .5;
+	background:#000;
+	float: right;
+	line-height: 2px;
+}
+#detail
+{
+	width:96%;
+	margin:2%;
+	height:200px;
+	background:#FFF;
+	font-size:18px;
+	color:#666;
+	border:thin;
+	border-radius:2px;
+	float:left;
+	
+}

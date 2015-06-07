@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Clubs | Sign up</title>
+<link rel="icon" href="Images/logo2.png" />
+<link rel="stylesheet" href="Styles/Core2.css" />
+</head>
+
+<body>
+	
+	<div id="top-border" > 
+			<img src="images/star.png" class="float-left"  />
+			<b class="text">lubs</b>
+			 <input type="submit" id="button" value="Search" /> 
+ 			 <input type="text" class="search" placeholder="Search"/> 
+ 	</div>
+    <div class="container" align="center">
+    <div class="signup-container" align="center">
+    <div  id="title">&nbsp;&nbsp;<b>Welcome to Club</b></div>
+    <div class="signup-box" align="center">
+    	
+        	<form method="post" action="regn.php">
+                   <table width="100%" height="100%">
+                   		<tr>
+							<td valign="top">
+								<label f  class="text2">Full Name :</label>
+							</td>
+							<td valign="top">
+								<input  type="text" name="name" class="signup-text" maxlength="50" size="30" required>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label for="name" id="name" class="text2">Username :</label>
+							</td>
+							<td valign="top">
+								<input  type="text" name="username" class="signup-text" maxlength="50" size="30" required>
+							</td>
+						</tr>
+                        <tr>
+                        	<td valign="top">
+                        		<label class="text2">Password</label>
+                      		</td>
+                        	<td valign="top">
+								<input type="text" name="password" class="signup-text" />
+                                <input type="text" class="signup-text" />
+                    		</td>
+                    	</tr> 
+                   
+                    	<tr>
+                       		<td valign="top">
+                        	 	<label class="text2" for="gender">Gender :</label>
+                    		</td>
+                            
+                        	<td valign="top">
+                          	 	<select name="gender" class="signup-text">
+									<option value="Male">Male</option>
+                                	<option value="Female">Female</option>
+                            	</select>
+                    		</td>
+                   	    </tr> 
+                    	 <tr>
+                       		<td valign="top">
+                        		 <label  class="text2"for="dob">Date of Birth:</label>
+                    		</td>
+                       		 <td valign="top">
+                          	 	<input type="date" name="dob" class="signup-text" required><br>
+                    		</td>
+                   		 </tr> 
+                   		 <tr>
+                       		 <td valign="top">
+                        		<label class="text2" for="phone">Contactno</label>
+                      		</td>
+                        	<td valign="top">
+								<input type="text" name="mobno" class="signup-text" required />
+                    		</td>
+                    	</tr> 
+                   		<tr>
+                        	<td valign="top">
+                        		<label class="text2" for="email">Email</label>
+                      		</td>
+                        	<td valign="top">
+								<input type="text" name="email"  class="signup-text" />
+                    		</td>
+                    	</tr> 
+                    	<tr>
+                        	<td>
+                            </td>
+                        	<td valign="top">
+                        		<button id="button2" type="submit" name="submit-button">Continue</button>
+                    		</td> 
+                		</tr>
+					</table>
+               	</form>
+               </div>
+            </div>
+            </div>
+         </div>
+</body>
+</html>

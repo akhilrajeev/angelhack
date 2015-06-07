@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:#000;
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	min-width:1300px;
+}
+.container
+{
+	float:left;
+	width:1300px;
+	margin-top:50px;
+	
+}
+.logbox
+{
+	width:400px;
+	height:550px;
+	background:#1c1c1c;
+	float:right;
+	border-radius:4px;
+	border:0px;
+}
+.logobox
+{
+	width:400px;
+	height:350px;
+	margin:0px;
+	padding:0px;
+}
+.logtext
+{
+	width:300px;
+	height:35px;
+	margin-top:10px;
+	border:1px;
+	text-align:center;
+}
+.logbutton
+{
+	width:300px;
+	height:35px;
+	margin-top:10px;
+	border:1px;
+	text-align:center;
+	background:#666;
+}
+.formclass
+{	
+	margin:0px;
+	padding:0px;
+	color:#666;
+}
